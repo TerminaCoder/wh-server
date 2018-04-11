@@ -14,7 +14,7 @@ spring:
     port: 6379
     password: null
 mybatis:
-  mapper-locations: classpath:com/wanghuan/dao/mapper/*.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
   type-aliases-package: com.wanghuan.model
 
 logging:
